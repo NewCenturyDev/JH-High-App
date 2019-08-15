@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/credit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hypertech.ysm99admin.jh_highschool.credit">
+
+    <Button
+        android:text="이전화면으로 돌아가기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/creditback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jhcredit"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/creditback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="어플리케이션 제작자(YSM99) 홈페이지 접속"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ysm99spage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="본 어플리케이션은 베타(테스트/프로토타입) 버전이며, Android Studio를 통해 제작되었습니다."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ysm99spage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewcredit3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="저현고등학교 어플리케이션 (버전 2.0 Beta) 아래의 버튼을 누르면 저현고등학교 관련 홈페이지로 접속하실 수 있습니다."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creditback"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/textViewjh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="저현고등학교 홈페이지 접속"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jhpage"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="저현고등학교 학생회 페이지 접속"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jhleaderspage"
+        android:layout_below="@+id/jhpage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="저현고등학교 (ver.2.0) 어플리케이션 제작자 명단: 어플리케이션 코딩(프로그래밍) : YSM99 (20924 윤성민)  어플리케이션 출품 기획 : 베타고 동아리장 (20825 유정현) / 베타고 부원(20617 엄재식) / 어플리케이션 제작에 도움을 주신 분들:  (아래)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcredit"
+        android:layout_below="@+id/jhleaderspage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="저현고등학교의 자율동아리 담당 선생님 외 모든 선생님들 / 저현고등학교."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcredit2"
+        android:layout_below="@+id/textViewcredit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

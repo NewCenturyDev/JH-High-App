@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hypertech.ysm99admin.jh_highschool">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Schedule" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Files" />
+        <activity android:name=".Information" />
+        <activity android:name=".Timetable" />
+        <activity android:name=".g1c1"/>
+        <activity android:name=".g1c2"/>
+        <activity android:name=".g1c3"/>
+        <activity android:name=".g1c4"/>
+        <activity android:name=".g1c5"/>
+        <activity android:name=".g1c6"/>
+        <activity android:name=".g1c7"/>
+        <activity android:name=".g1c8"/>
+        <activity android:name=".g1c9"/>
+        <activity android:name=".g1c10"/>
+        <activity android:name=".g1c11"/>
+        <activity android:name=".g1c12"/>
+        <activity android:name=".g2c1"/>
+        <activity android:name=".g2c2"/>
+        <activity android:name=".g2c3"/>
+        <activity android:name=".g2c4"/>
+        <activity android:name=".g2c5"/>
+        <activity android:name=".g2c6"/>
+        <activity android:name=".g2c7"/>
+        <activity android:name=".g2c8"/>
+        <activity android:name=".g2c9"/>
+        <activity android:name=".g2c10"/>
+        <activity android:name=".g2c11"/>
+        <activity android:name=".g2c12"/>
+        <activity android:name=".schedule0"/>
+        <activity android:name=".schedule1"/>
+        <activity android:name=".schedule2"/>
+        <activity android:name=".schedule3"/>
+        <activity android:name=".scheduleb1"/>
+        <activity android:name=".scheduleb2"/>
+        <activity android:name=".scheduleb3"/>
+        <activity android:name=".menu0"/>
+        <activity android:name=".menu1"/>
+        <activity android:name=".menu2"/>
+        <activity android:name=".menu3"/>
+        <activity android:name=".menub1"/>
+        <activity android:name=".menub2"/>
+        <activity android:name=".menub3"/>
+        <activity android:name=".credit"/>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+</manifest>

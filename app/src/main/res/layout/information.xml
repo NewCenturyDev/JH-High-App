@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hypertech.ysm99admin.jh_highschool.Information">
+
+    <TextView
+        android:text="현재 학교정보 및 소개 기능은 일부 기능만 제공되고 있습니다. 추후 업데이트를 통해 추가할 예정입니다."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewinfo2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="이전 화면으로 돌아가기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoback"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="학교정보 및 소개입니다."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewinfo"
+        android:layout_below="@+id/infoback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="인사말"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info1"
+        android:layout_below="@+id/textViewinfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="학교소개"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info2"
+        android:layout_below="@+id/info1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="찾아오시는길"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info3"
+        android:layout_below="@+id/info2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

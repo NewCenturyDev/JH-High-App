@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hypertech.ysm99admin.jh_highschool.Menu">
+
+    <Button
+        android:text="이전화면으로 돌아가기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/menuback" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewmenu1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="월간급식식단표입니다.  [현재 일부 월간식단표 준비 중]" />
+
+    <Button
+        android:text="2016년 9월 급식식단표 [일시적 오류 발생]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewmenu1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/menub3"
+        android:enabled="false" />
+
+    <Button
+        android:text="2016년 10월 급식식단표 [일시적 오류 발생]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menub3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/menub2"
+        android:enabled="false" />
+
+    <Button
+        android:text="2016년 11월 급식식단표"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menub2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/menub1" />
+
+    <Button
+        android:text="2017년 1월 급식식단표 [방학기간]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/menu1"
+        android:enabled="false" />
+
+    <Button
+        android:text="2017년 2월 급식식단표 [준비 중]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu2"
+        android:layout_below="@+id/menu1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:enabled="false" />
+
+    <Button
+        android:text="2017년 3월 급식식단표 [준비 중]"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu3"
+        android:layout_below="@+id/menu2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:enabled="false" />
+
+    <Button
+        android:text="[이번달] 2016년 12월 급식식단표"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu0"
+        android:layout_below="@+id/menub1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text='월간급식식단표는 현시점을 기점으로 전후 3개월까지만 표시합니다. 다른 시점의 정보를 원하시면 "메인화면>제작자>학교홈페이지 접속" 를 통해서 학교 홈페이지를 방문하세요.'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewmenu2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
